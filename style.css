@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+html * {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #fcfce4;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfce4;
+}
+
+.contenedores {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(4, 200px);
+}
+
+.first {
+    display:flex;
+    color: #c66828;
+    font-family: 'Cinzel', serif;
+    justify-content: center;
+}
+
+.contenedor1 {
+    border: 8px solid #fcfce4;
+    display: grid;
+    background-image: url(./assets/1.png);
+    background-size: cover;
+}
+
+.contenedor2 {
+    border: 8px solid #fcfce4;
+    display: grid;
+    grid-column: 2 / span 3; 
+    background-image: url(./assets/2.png);
+    background-size: cover;
+}
+
+.contenedor3 {
+    border: 8px solid #fcfce4;
+    display: grid;
+    background-image: url(./assets/3.jpg);
+    background-size: cover;
+}
+
+.contenedor4 {
+    border: 8px solid #fcfce4;
+    display: grid;
+    grid-column: 2/ span 2 ;
+    background-image: url(./assets/4.png);
+    background-size: contain;
+}
+
+.contenedor5 {
+    border: 8px solid #fcfce4;
+    display: grid;
+    background-image: url(./assets/5.png);
+    background-size: contain;
+}
+
+.contenedor6 {
+    border: 8px solid #fcfce4;
+    display: grid;
+    grid-area: 3 / 1 / 5 / 3;
+    background-image: url(./assets/6.png);
+    background-size: cover;
+}
+
+.contenedor8 {
+    border: 8px solid #fcfce4;
+    display: grid;
+    background-image: url(./assets/8.png);
+    background-size: cover;
+}
+
+
+.contenedor9 {
+    border: 8px solid #fcfce4;
+    display: grid;
+    background-image: url(./assets/9.png);
+    background-size: contain;
+}
+
+.contenedor10 {
+    border: 8px solid #fcfce4;
+    display: grid;
+    grid-area: 3 / 4 / 5 / 5;
+    background-image: url(./assets/10.png);
+    background-size: cover;
+}
+
+.last {
+    background-color: #fcfce4;
+    height: 100px;
+    width: 100vw;
+}
+
+.last p {
+    margin: 0;
+    padding: 50px;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    color: #ba9470;
+    font-weight: bold;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
