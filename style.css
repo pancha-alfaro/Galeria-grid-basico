@@ -24,7 +24,7 @@ body {
 }
 
 .first {
-    display:flex;
+    display: grid;
     color: #c66828;
     font-family: 'Cinzel', serif;
     justify-content: center;
@@ -87,7 +87,7 @@ body {
     border: 8px solid #fcfce4;
     display: grid;
     background-image: url(./assets/9.png);
-    background-size: contain;
+    background-size: cover;
 }
 
 .contenedor10 {
